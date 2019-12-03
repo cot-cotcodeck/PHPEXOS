@@ -11,11 +11,17 @@ $gender= 'femme';
 <body>
   <p>
     <?php
-    if ($age>= 18 and $gender= 'femme';) {
+    if ($age>= 18 && $gender= 'femme'){
     echo 'Vous êtes une femme et vous êtes majeur.';
     }
-    elseif ($age< 18) {
-    echo 'Vous une femme et vous êtes mineur!';
+    elseif ($age< 18 && $gender= 'femme') {
+    echo 'Vous une femme et vous êtes mineur.';
+    }
+    elseif ($age>=18 && $gender='homme') {
+    echo 'Vous êtes un homme et vous êtes majeur.';
+    }
+    elseif ($age<18 && $gender='homme') {
+    echo 'Vous êtes un homme et vous êtes mineur.';
     }
     ?>
   </p>
