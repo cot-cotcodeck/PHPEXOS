@@ -1,5 +1,5 @@
 <?php
-$gender='homme';
+$gender ='homme';
 ?>
 <!DOCTYPE html>
 <html lang=fr dir="ltr">
@@ -10,10 +10,10 @@ $gender='homme';
 <body>
   <p>
     <?php
-    if ($gender='homme') {
+    if ($gender !='homme') {
       echo 'c \'est un développeur';
     }
-    elseif ($gender= 'femme') {
+    else {
       echo 'c\'est une développeuse';
     }
     ?>
