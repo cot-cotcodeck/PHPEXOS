@@ -7,7 +7,7 @@ $bibou = ' tout doux';
 <html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8"/>
-  <title></title>
+  <title>Ex 2</title>
 </head>
 <body>
   <p>
